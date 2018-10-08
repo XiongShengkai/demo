@@ -1,4 +1,4 @@
-package com.langchuan.proxy;
+package com.langchuan.design.proxy;
 
 /**
  * @author: kevin.xiong

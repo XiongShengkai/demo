@@ -23,4 +23,20 @@ public class AdapterTest {
     target.method1();
     target.method2();
   }
+
+  /** 测试接口的适配器模式*/
+  @Test
+  public void test3(){
+    SourceSub1 sub1 = new SourceSub1();
+    SourceSub2 sub2 = new SourceSub2();
+
+    System.out.println("1");
+    sub1.method1();
+    System.out.println("2");
+    sub1.method2();
+    System.out.println("3");
+    sub2.method1();
+    System.out.println("4");
+    sub2.method2();
+  }
 }

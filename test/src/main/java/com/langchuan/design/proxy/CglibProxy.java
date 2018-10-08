@@ -1,4 +1,4 @@
-package com.langchuan.proxy;
+package com.langchuan.design.proxy;
 
 import java.lang.reflect.Method;
 import org.springframework.cglib.proxy.Enhancer;

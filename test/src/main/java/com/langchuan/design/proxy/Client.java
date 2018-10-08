@@ -1,4 +1,4 @@
-package com.langchuan.proxy;
+package com.langchuan.design.proxy;
 
 import java.lang.reflect.Proxy;
 import org.junit.Test;
